@@ -13,6 +13,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <title>House Buy</title>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      
+    </script>
+
+
+
 </head>
 <body>
 
@@ -37,15 +50,15 @@
                                 <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
                                 <div class="dropdown-menu">
                                     <a href="houseBuy.html" class="dropdown-item">Buy</a>
-                                    <a href="" class="dropdown-item">Rent</a>
-                                    <a href="" class="dropdown-item">Commercial</a>
+                                    <!-- <a href="" class="dropdown-item">Rent</a>
+                                    <a href="" class="dropdown-item">Commercial</a> -->
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="" class="nav-link">Location</a></li>
+                            <!-- <li class="nav-item"><a href="" class="nav-link">Location</a></li>
                             <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
                             <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
                             <li class="nav-item"><a href="" class="nav-link">Login</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Signup</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Signup</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -66,7 +79,7 @@
                         </p>
                     </div>
                 </div>
-                <form action="login.php" method="POST">
+                <!-- <form action="login.php" method="POST">
                     <div class="row">
                         <div class="input-group input-group-lg col-lg-4 col-md-6 resp-input">
                             <div class="input-group-prepend"> 
@@ -84,7 +97,7 @@
                             <input type="submit" value="Login" name="submit" class="btn btn-block btn-lg btn-outline-warning">
                         </div>
                     </div>
-                </form>
+                </form> -->
             </div>
 
         </div>
@@ -217,6 +230,15 @@
                 </div>
             </div>
             <button class="btn btn-secondary btn-lg btn-block" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12 my-5">
+                    <div id="piechart" style="width: 900px; height: 500px;"></div>
+                    <div id="columnchart_values" style="width: 900px; height: 300px;" class="my-5"></div>
+                </div>
+            </div>
+        
+            
         </div>
     </div>
 
@@ -226,8 +248,8 @@
 
 
 
-    <div class="footer">
-        <div class="container">
+    <div class="footer mt-5">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-4">
                     <p>
